@@ -224,4 +224,4 @@ Este projeto é apenas para fins educacionais.
 
 # VS Code (LivrariaFrontend)
 
-![preview](./src/assets/images/VsCodeFRONTEND.png)
+![preview](./src/assets/images/VSCodeFRONTEND.png)
