@@ -210,18 +210,18 @@ Este projeto é apenas para fins educacionais.
 
 # Pagina Inicial (Home)
 
-![preview](./images/PageHome.png)
+![preview](./src/assets/images/PageHome.png)
 
-![preview](./images/PageHome2.png)
+![preview](./src/assets/images/PageHome2.png)
 
 # Pagina Autores (Authors)
 
-![preview](./images/PageAuthors.png)
+![preview](./src/assets/images/PageAuthors.png)
 
 # Pagina Privacidade (Privacy)
 
-![preview](./images/PagePrivacy.png)
+![preview](./src/assets/images/PagePrivacy.png)
 
 # VS Code (LivrariaFrontend)
 
-![preview](./images/VsCodeFRONTEND.png)
+![preview](./src/assets/images/VsCodeFRONTEND.png)
