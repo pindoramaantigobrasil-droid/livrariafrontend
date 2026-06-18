@@ -41,7 +41,11 @@ function Home() {
     try {
 
       const response = await axios.get(
+<<<<<<< HEAD
         `${import.meta.env.VITE_API_URL}/livros`
+=======
+        "http://localhost:8081/livros"
+>>>>>>> 6fdd7a4d5b41a4aa1adc525c47e958948c6d7424
       );
 
       setLivros(response.data);

@@ -281,7 +281,11 @@ function App() {
 
     axios
       .get(
+<<<<<<< HEAD
         `${import.meta.env.VITE_API_URL}/livros`,
+=======
+        "http://localhost:8081/livros",
+>>>>>>> 6fdd7a4d5b41a4aa1adc525c47e958948c6d7424
         {
           headers: {
             Authorization:
@@ -348,6 +352,7 @@ function App() {
 
     event.preventDefault();
 
+<<<<<<< HEAD
   axios
     .put(
       `${import.meta.env.VITE_API_URL}/livros/${novoLivro.id}`,
@@ -379,11 +384,32 @@ function App() {
       );
     });
 }
+=======
+    axios
+      .put(
+        `http://localhost:8081/livros/${novoLivro.id}`,
+        novoLivro
+      )
+
+      .then(() => {
+
+        buscarLivros();
+
+        fecharModal();
+
+        mostrarMensagem(
+          "Livro atualizado!",
+          "sucesso"
+        );
+      });
+  }
+>>>>>>> 6fdd7a4d5b41a4aa1adc525c47e958948c6d7424
 
   function cadastrarLivro(event) {
 
     event.preventDefault();
 
+<<<<<<< HEAD
   axios
     .post(
       `${import.meta.env.VITE_API_URL}/livros`,
@@ -452,6 +478,32 @@ function App() {
     });
 }
 
+=======
+    axios
+      .post(
+        "http://localhost:8081/livros",
+        novoLivro
+      )
+
+      .then(() => {
+
+        buscarLivros();
+
+        limparFormulario();
+
+        mostrarMensagem(
+          "Livro cadastrado!",
+          "sucesso"
+        );
+      });
+  }
+
+  function abrirModalDelete(livro) {
+
+    console.log(livro);
+  }
+
+>>>>>>> 6fdd7a4d5b41a4aa1adc525c47e958948c6d7424
   function editarLivro(livro) {
 
     setNovoLivro(livro);
