@@ -24,11 +24,7 @@ function Login({ setToken }) {
         : "login";
 
       const response = await axios.post(
-<<<<<<< HEAD
         `${import.meta.env.VITE_API_URL}/auth/${endpoint}`,
-=======
-        `http://localhost:8081/auth/${endpoint}`,
->>>>>>> 6fdd7a4d5b41a4aa1adc525c47e958948c6d7424
         {
           username,
           password,
